@@ -104,3 +104,7 @@ To run this project locally, follow these steps:
     npm run dev
     ```
     The application will be accessible in your browser, typically at `http://localhost:5173`.
+
+###Video link
+ https://youtu.be/cMfUXhTuquE?si=rDnX7GSOx95uRI6l
+
