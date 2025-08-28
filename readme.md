@@ -89,7 +89,7 @@ To run this project locally, follow these steps:
 1.  Navigate to the backend directory.
 2.  Install the required Python packages:
     ```bash
-    pip install fastapi uvicorn python-multipart Pillow pandas torch transformers sentencepiece thefuzz
+    pip install -r requirements.txt
     ```
 3.  Ensure you have the fine-tuned models and dataset files in the correct directories as specified in `main.py`.
 4.  Run the FastAPI server:
