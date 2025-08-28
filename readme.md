@@ -37,6 +37,7 @@ For image recognition, we started with a powerful base model and adapted it to s
 
 * **Base Model:** [google/vit-base-patch16-224](https://huggingface.co/google/vit-base-patch16-224)
 * **Fine-Tuning:** The base Vision Transformer (ViT) was fine-tuned on a comprehensive, custom-built dataset to accurately identify a wide range of food items, including specific cultural cuisines.
+* **Fine-tuned model: [google-vit-basepack-finetuned](https://huggingface.co/vaidzs/google-vit-basepack-finetuned)
 
 ### 2. Text Model: Fine-Tuned TinyLlama
 
@@ -44,6 +45,7 @@ To provide intelligent suggestions and understand user queries, we fine-tuned a 
 
 * **Base Model:** [TinyLlama/TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)
 * **Fine-Tuning:** We fine-tuned this model on the extensive list of food labels from our combined nutrition datasets. This process trained the model to recognize a vast vocabulary of food items, handle typos gracefully, and provide more accurate suggestions when a user searches for a food item via text.
+* **Fine-Tuned: [Tinyllama1b_finetuned](https://huggingface.co/vaidzs/tinyllama1B_chat_finetuned)
 
 ---
 
@@ -118,6 +120,8 @@ To run this project locally, follow these steps:
 * Garvit Sisodia
 
 ---
+### Video link
+ [demo-link](https://youtu.be/cMfUXhTuquE?si=rDnX7GSOx95uRI6l)
 
 ## 📜 Overview
 
@@ -217,7 +221,6 @@ To run this project locally, follow these steps:
     ```
     The application will be accessible in your browser, typically at `http://localhost:5173`.
 
-###Video link
- https://youtu.be/cMfUXhTuquE?si=rDnX7GSOx95uRI6l
 
->>>>>>> 01a495d851d970bba975658592faac08ea0c926b
+
+
